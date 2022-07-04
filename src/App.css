@@ -1,0 +1,42 @@
+@import '~antd/dist/antd.css';
+
+
+.app{
+  padding: 24px;
+}
+
+.app .contain .ant-btn{
+  width: 60px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.app .mark{ 
+  width: 60px;
+  height: 32px;
+  position: absolute;
+  z-index: 2;
+  border: 4px solid #1890ff; 
+}
+
+.app .contain{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.app .jackpot{
+  width: 680px;
+}
+.app .jackpot-inner{
+  width: 100%;
+  position: relative;
+}
+.app .options{
+  margin-bottom: 24px;
+}
+
+.app .lucks{
+  border-left: 1px solid;
+  padding-left: 8px;
+  max-width: calc(100% - 700px);
+}
